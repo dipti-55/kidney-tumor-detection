@@ -30,8 +30,8 @@ list_of_files = [
 
 
 for filepath in list_of_files:
-    filepath = Path(filepath)
-    filedir, filename = os.path.split(filepath)
+    filepath = Path(filepath) # to convertt the path wrt windows operating system
+    filedir, filename = os.path.split(filepath) # splitting folder and files
 
 
     if filedir !="":
