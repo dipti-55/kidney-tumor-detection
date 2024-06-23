@@ -2,6 +2,7 @@ tensorflow
 pandas 
 dvc
 mlflow
+dagshub
 notebook
 numpy
 matplotlib
@@ -16,4 +17,4 @@ scipy
 Flask
 Flask-Cors
 gdown
--e .
+#-e .
