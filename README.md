@@ -12,3 +12,8 @@
 8. Update the main.py
 9. Update the dvc.yaml
 10. app.py
+
+
+
+# dvc
+- cmd: dvc repro //to run the project instead running from main
